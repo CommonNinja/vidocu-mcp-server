@@ -103,6 +103,8 @@ The MCP server works on **every Vidocu plan** with OAuth, including the Free pla
 ## Links
 
 - Product: <https://vidocu.ai>
+- MCP page: <https://vidocu.ai/mcp>
 - MCP docs: <https://vidocu.ai/docs/mcp>
 - API docs: <https://vidocu.ai/docs>
 - Developers: <https://vidocu.ai/developers>
+- Registry: `ai.vidocu/vidocu` on <https://registry.modelcontextprotocol.io>
