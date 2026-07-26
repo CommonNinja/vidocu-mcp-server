@@ -31,8 +31,8 @@ with PKCE and dynamic client registration. Clients that support OAuth connect wi
 no manual key management, and an agent can produce real output without a credit
 card.
 
-**API key (Business plan).** For clients without OAuth support, pass a Vidocu API
-key (`vdo_live_...`) as a Bearer token. Mint one at
+**API key.** For clients without OAuth support, pass a Vidocu API key
+(`vdo_live_...`) as a Bearer token, available on every plan. Mint one at
 <https://vidocu.ai/dashboard/developers>.
 
 ## Install
@@ -96,9 +96,8 @@ roadmap.
 
 ## Pricing
 
-The MCP server works on **every Vidocu plan** with OAuth, including the Free plan
-(no credit card). API key auth requires the Business plan. Plans at
-<https://vidocu.ai/pricing>.
+The MCP server works on **every Vidocu plan**, with OAuth or an API key, including
+the Free plan (no credit card). Plans at <https://vidocu.ai/pricing>.
 
 ## Links
 

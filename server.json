@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.vidocu/vidocu",
   "description": "AI Knowledge Platform: turn videos, PDFs, and slides into subtitles, voiceovers, and documentation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://vidocu.ai/mcp",
   "remotes": [
     {
@@ -11,7 +11,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional. OAuth 2.1 is discovered automatically and works on any plan, including Free. Alternatively pass a Vidocu API key (Business plan), e.g. `Bearer vdo_live_...`, from https://vidocu.ai/dashboard/developers",
+          "description": "Optional. OAuth 2.1 is discovered automatically. Alternatively pass a Vidocu API key, e.g. `Bearer vdo_live_...`, from https://vidocu.ai/dashboard/developers. Both work on any plan, including Free.",
           "isRequired": false,
           "isSecret": true
         }
