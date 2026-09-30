@@ -68,31 +68,22 @@ API key variant:
 }
 ```
 
-## Tools (21)
+## Tools (145)
 
-**Videos** - `upload_video`, `get_upload_url`, `list_videos`, `get_video`
+The server exposes the whole Vidocu platform. Grouped by area:
 
-**Projects** - `create_project`, `list_projects`, `get_project`, `update_project`,
-`delete_project`
+- **Videos and projects** - upload, list, rename, move and delete videos; project folders
+- **Processing** - `process_video` (analyze, voiceover, article, export and translate in one call), plus each step on its own, subtitles, scripts and download links
+- **AI Recorder** - `start_recording` describes a flow in plain words and an AI agent drives a real browser to record it. When a login asks for a one-time code, the agent pauses and `answer_recording_prompt` passes on the code you give it. Needs a paid plan.
+- **Knowledge Center** - sections, articles, publishing a video's article, translation, `ask_knowledge_base` (answers with citations), redirects, analytics and offline exports
+- **Courses and training** - courses built from documents, storyboards, generated modules, quizzes, attempts, sign-offs, deadlines and `training_planner`
+- **Studio and Remix** - multi-track Studio projects and templates; Remix shorts, blog and social copy from a long video
+- **Voices, avatars and brand kit** - voices, AI avatars, brand kit defaults, pronunciations, glossary, brand skills and brand assets
+- **Approvals, locks and comments** - request and decide approvals, lock a video through a review, review comments
+- **Micro-tools** - `list_tools`, `get_tool`, `execute_tool` (Vidocu's free video tools, programmatically)
+- **Jobs, usage and webhooks** - job status, usage, `get_credit_costs` to price work before starting it, webhook subscriptions
 
-**Processing** - `process_video`, `analyze_video`, `get_subtitles`,
-`translate_video`, `generate_voiceover`, `generate_article`, `export_video`
-
-**Micro-tools** - `list_tools`, `get_tool`, `execute_tool` (run any of Vidocu's
-free tools, like format conversion or subtitle extraction, programmatically)
-
-**Jobs and usage** - `get_job_status`, `get_usage`
-
-## AI Recorder
-
-The platform also includes **AI Recorder** (beta): give Vidocu a help article or a
-plain-language instruction and an AI agent opens a real browser, performs the
-workflow itself, and records it, returning video, step screenshots, and a written
-article from one run.
-
-AI Recorder is not yet exposed through the MCP server or API. Recordings created in
-the app land in the same projects these tools operate on, and MCP support is on the
-roadmap.
+The full list with a line on each tool is in the [MCP documentation](https://vidocu.ai/docs/mcp).
 
 ## Pricing
 
@@ -102,7 +93,7 @@ the Free plan (no credit card). Plans at <https://vidocu.ai/pricing>.
 ## Links
 
 - Product: <https://vidocu.ai>
-- MCP page: <https://vidocu.ai/mcp>
+- MCP page: <https://vidocu.ai/features/mcp>
 - MCP docs: <https://vidocu.ai/docs/mcp>
 - API docs: <https://vidocu.ai/docs>
 - Developers: <https://vidocu.ai/developers>

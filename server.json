@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.vidocu/vidocu",
   "description": "AI Knowledge Platform: turn videos, PDFs, and slides into subtitles, voiceovers, and documentation",
-  "version": "1.0.2",
-  "websiteUrl": "https://vidocu.ai/mcp",
+  "version": "1.0.3",
+  "websiteUrl": "https://vidocu.ai/features/mcp",
   "remotes": [
     {
       "type": "streamable-http",
