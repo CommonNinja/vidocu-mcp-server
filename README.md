@@ -68,7 +68,7 @@ API key variant:
 }
 ```
 
-## Tools (145)
+## Tools (168)
 
 The server exposes the whole Vidocu platform. Grouped by area:
 
@@ -80,6 +80,8 @@ The server exposes the whole Vidocu platform. Grouped by area:
 - **Studio and Remix** - multi-track Studio projects and templates; Remix shorts, blog and social copy from a long video
 - **Voices, avatars and brand kit** - voices, AI avatars, brand kit defaults, pronunciations, glossary, brand skills and brand assets
 - **Approvals, locks and comments** - request and decide approvals, lock a video through a review, review comments
+- **Written manuals** - IOM, installation and user guides: edit, translate, and print to PDF
+- **AI B-roll and scenes** - plan a shot, generate stills, animate them into clips, and design animated explainer scenes
 - **Micro-tools** - `list_tools`, `get_tool`, `execute_tool` (Vidocu's free video tools, programmatically)
 - **Jobs, usage and webhooks** - job status, usage, `get_credit_costs` to price work before starting it, webhook subscriptions
 
